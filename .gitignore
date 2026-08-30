@@ -1,0 +1,35 @@
+# Node dependencies
+node_modules/
+
+# React build
+client/build/
+
+# Maven build files
+target/
+server/target/
+server 2/target/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# macOS
+.DS_Store
+
+# Environment files / secrets
+.env
+.env.*
+!.env.example
+
+# Generated files
+repomix-output.xml
+
+# Local database files
+*.mv.db
+*.trace.db
+
+# Maven generated/build artifacts
+target/
+# Generated Maven directory
+server/${project.build.directory}/
